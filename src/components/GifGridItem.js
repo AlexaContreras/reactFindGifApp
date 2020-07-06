@@ -9,13 +9,16 @@ export const GifGridItem = ({ title, id, url }) => {
 
   return (
     <div className='card animate__animated animate__fadeInDown'>
-      <img className='imgHidden' onLoad={handleOnload} src={url} alt={title} />
-      {state ? (
+      <img
+        className={state && 'imgHidden'}
+        onLoad={handleOnload}
+        src={url}
+        alt={title}
+      />
+      {state && (
         <div className='loading'>
           <i className='fa fa-circle-notch fa-spin fa-3x' />
         </div>
-      ) : (
-        <img onLoad={handleOnload} src={url} alt={title} />
       )}
     </div>
   );
