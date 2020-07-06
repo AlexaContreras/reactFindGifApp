@@ -1,0 +1,54 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  padding: 60px;
+  color: white;
+  background-color: rgb(19, 19, 19);
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  color: grey;
+}
+.gridsContainer {
+  display: flex;
+}
+
+.cardGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.card img {
+  border-radius: 6px;
+  margin: 10px;
+  height: 150px;
+  width: 200px;
+}
+
+ol.olGridsContainer {
+  margin: 0;
+  padding: 0;
+}
+
+h3.h3cardGrid {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
