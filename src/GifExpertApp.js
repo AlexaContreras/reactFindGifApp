@@ -8,7 +8,7 @@ export const GifExpertApp = () => {
   return (
     <>
       <h2>
-        <img className='logo' src='../docs/images/gif.png' alt='logo'></img>
+        <img className='logo' src='images/gif.png' alt='logo'></img>
         GifExpertApp
       </h2>
       <AddCategory setCategories={setCategories} />
